@@ -3,10 +3,5 @@
         "ConfigFile":"Longvinter/Saved/Config/WindowsServer/Game.ini",
         "AutoMap":true,
         "ConfigType":"ini"
-    },
-    {
-        "ConfigFile":"Longvinter/Saved/Config/LinuxServer/Game.ini",
-        "AutoMap":true,
-        "ConfigType":"ini"
     }
 ]
