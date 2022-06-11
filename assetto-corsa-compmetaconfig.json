@@ -2,29 +2,25 @@
     {
         "ConfigFile":"server/cfg/configuration.json",
         "AutoMap":true,
-        "Importable":true,
         "ConfigType":"json",
-        "ConfigEncoding":"utf16-le-nobom"
+        "ConfigEncoding":"utf16-le"
     },
     {
         "ConfigFile":"server/cfg/settings.json",
         "AutoMap":true,
-        "Importable":true,
         "ConfigType":"json",
-        "ConfigEncoding":"utf16-le-nobom"
+        "ConfigEncoding":"utf16-le"
     },
     {
         "ConfigFile":"server/cfg/event.json",
         "AutoMap":true,
-        "Importable":true,
         "ConfigType":"json",
-        "ConfigEncoding":"utf16-le-nobom"
+        "ConfigEncoding":"utf16-le"
     },
     {
         "ConfigFile":"server/cfg/assistRules.json",
         "AutoMap":true,
-        "Importable":true,
         "ConfigType":"json",
-        "ConfigEncoding":"utf16-le-nobom"
+        "ConfigEncoding":"utf16-le"
     }
 ]
