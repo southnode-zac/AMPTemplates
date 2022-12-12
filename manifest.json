@@ -1,8 +1,8 @@
 {
 	"id": "661345c3-a2cf-4edc-ba44-6b924daa047c",
 	"authors": ["Southnode", "Southnode Pty Ltd"],
-	"origin": "https://github.com/southnode-zac/AMPTemplates.git",
-	"url": "https://github.com/southnode-zac/AMPTemplates/tree/experimental",
+	"origin": "https://github.com/southnode/AMPTemplates.git",
+	"url": "https://github.com/southnode/AMPTemplates/tree/experimental",
 	"imagefile": "",
 	"prefix": "southnodeex"
 }
