@@ -29,8 +29,8 @@ App.CommandLineArgs={{$PlatformArgs}} {{Map}}?Mission={{Mission}}?MaxPlayers={{$
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"./linux64:%LD_LIBRARY_PATH%","SteamAppId":"476400","WINEARCH":"win64","WINEDEBUG":"-all","WINEPREFIX":"/wineprefix"}
-App.CommandLineParameterFormat=?{0}={1}
-App.CommandLineParameterDelimiter= 
+App.CommandLineParameterFormat={0}={1}
+App.CommandLineParameterDelimiter=?
 App.ExitMethod=OS_CLOSE
 App.ExitTimeout=30
 App.ExitString=quit
