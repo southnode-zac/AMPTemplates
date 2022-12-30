@@ -91,11 +91,11 @@
         "IncludeInCommandLine": false,
         "DefaultValue": "",
         "EnumValues": {
-            "2400": "Midnight",
-            "1200": "Midday",
-            "0600": "Sunrise",
-            "1900": "Sunset",
-            "1400": "Mid Afternoon"
+            "2400": "Midnight (00:00)",
+            "0600": "Sunrise (06:00)",
+            "1200": "Midday (12:00)",
+            "1500": "Mid Afternoon (15:00)",
+            "1900": "Sunset (19:00)"
         },
         "SkipIfEmpty": true
     },
