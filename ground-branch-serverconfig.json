@@ -19,7 +19,6 @@
             "Depot": "Depot",
             "Depot_Compound": "Depot (Compound)",
             "Paintball": "Paintball",
-            "Compound": "Outskirts (Compound)",
             "PowerStation": "PowerStation",
             "RunDown": "RunDown",
             "SmallTown": "SmallTown",
@@ -200,7 +199,7 @@
     {
         "DisplayName": "Difficulty",
         "Category": "Server Config",
-        "Description": "What settings to use for any AI in Intel Retrieval or Terrorist Hunt (1-4, 0 for custom)",
+        "Description": "What settings to use for any AI in Intel Retrieval or Terrorist Hunt.",
         "Keywords": "Difficulty",
         "FieldName": "Difficulty",
         "InputType": "enum",
