@@ -222,51 +222,51 @@
         "Description": "Can spectators to fly around freely without following anyone?",
         "Keywords": "SpectateFreeCam",
         "FieldName": "SpectateFreeCam",
-        "InputType": "enum",
+        "InputType": "checkbox",
         "IsFlagArgument": false,
-        "ParamFieldName": "SpectateFreeCam",
+        "ParamFieldName": "SpectateForceFirstPerson",
         "IncludeInCommandLine": false,
-        "DefaultValue": "0",
+        "DefaultValue": "false",
         "EnumValues": {
-            "0": "False",
-            "1": "True"
+          "True": "true",
+          "False": "false"
         },
-        "SkipIfEmpty": true
-    },
+        "SkipIfEmpty": true        
+      },
     {
         "DisplayName": "Spectate Enemies",
         "Category": "Server Config",
         "Description": "Can spectators follow members of the enemy teams?",
         "Keywords": "SpectateEnemies",
         "FieldName": "SpectateEnemies",
-        "InputType": "enum",
+        "InputType": "checkbox",
         "IsFlagArgument": false,
-        "ParamFieldName": "SpectateEnemies",
+        "ParamFieldName": "SpectateForceFirstPerson",
         "IncludeInCommandLine": false,
-        "DefaultValue": "0",
+        "DefaultValue": "false",
         "EnumValues": {
-            "0": "False",
-            "1": "True"
+          "True": "true",
+          "False": "false"
         },
-        "SkipIfEmpty": true
-    },
+        "SkipIfEmpty": true        
+      },
     {
         "DisplayName": "Spectate Force First-Person View",
         "Category": "Server Config",
         "Description": "Should spectators be restricted to first person only view mode?",
         "Keywords": "SpectateForceFirstPerson",
         "FieldName": "SpectateForceFirstPerson",
-        "InputType": "enum",
+        "InputType": "checkbox",
         "IsFlagArgument": false,
         "ParamFieldName": "SpectateForceFirstPerson",
         "IncludeInCommandLine": false,
-        "DefaultValue": "0",
+        "DefaultValue": "false",
         "EnumValues": {
-            "0": "False",
-            "1": "True"
+          "True": "true",
+          "False": "false"
         },
-        "SkipIfEmpty": true
-    },
+        "SkipIfEmpty": true        
+      },
     {
         "DisplayName": "Admin Players",
         "Description": "A list of Steam64 IDs for players that are in-game admins. [Find your Steam64 ID](https://steamidfinder.com/)",
