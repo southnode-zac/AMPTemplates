@@ -28,5 +28,17 @@
         "DefaultValue": "16",
         "EnumValues": {},
         "MinValue":"1"
+    },
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Config",
+        "Description": "Set the Name for the server to advertise",
+        "Keywords": "server name, name",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Southnode.net | Powering OHD"
     }
 ]
