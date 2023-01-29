@@ -1,0 +1,18 @@
+[
+    {
+        "DisplayName": "Starting Map & Mode",
+        "Category": "Server Config",
+        "Description": "The map and mode the server will start with: AAS (Attack And Secure), RAAS (Random Attack and Secure), INS (Insurgency)",
+        "Keywords": "starting,map,mode",
+        "FieldName": "Map",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "Map",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "AAS-TestMap",
+        "EnumValues": {
+            "AAS-TestMap":"AAS-TestMap",
+            "AAS-TestMap2":"AAS-TestMap2"
+        }
+    }
+]
