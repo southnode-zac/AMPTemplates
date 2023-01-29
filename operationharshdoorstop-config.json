@@ -12,7 +12,10 @@
         "DefaultValue": "AAS-TestMap",
         "EnumValues": {
             "AAS-TestMap":"AAS-TestMap",
-            "AAS-TestMap2":"AAS-TestMap2"
+            "WakeIsland_P":"Wake Island",
+            "L_Carentan_P":"Carentan",
+            "L_Utah_P":"Utah Beach",
+            "FiringRange_P":"Firing Range (Not recommended)"
         }
     },
     {
