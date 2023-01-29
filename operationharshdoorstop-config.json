@@ -14,5 +14,19 @@
             "AAS-TestMap":"AAS-TestMap",
             "AAS-TestMap2":"AAS-TestMap2"
         }
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Config",
+        "Description": "Max players that can join at a time.",
+        "Keywords": "Max,players,Slots",
+        "FieldName": "MaxPlayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxPlayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "16",
+        "EnumValues": {},
+        "MinValue":"1"
     }
 ]
