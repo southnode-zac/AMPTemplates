@@ -4,10 +4,10 @@
         "Category": "Server Config",
         "Description": "Password to connect to RCON. Change this after installing the server",
         "Keywords": "RCON,password",
-        "FieldName": "$RemoteAdminPassword",
+        "FieldName": "$RCONPass",
         "InputType": "RandomPassword",
         "IsFlagArgument": false,
-        "ParamFieldName": "$RemoteAdminPassword",
+        "ParamFieldName": "$RCONPass",
         "IncludeInCommandLine": false,
         "DefaultValue": "Password123"
     },
@@ -34,7 +34,22 @@
         "ParamFieldName": "MaxPlayers",
         "IncludeInCommandLine": false,
         "DefaultValue": "100",
-        "Suffix":"players"
+        "Suffix":"players",
+        "MinValue":"1"
+    },
+    {
+        "DisplayName": "Max TPS",
+        "Category": "Server Config",
+        "Description": "Set the maximum tickrate for the server (Set below 45 for best stability)",
+        "Keywords": "tps, tickrate",
+        "FieldName": "$MaxTPS",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxTPS",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "40",
+        "Suffix":"tps",
+        "MinValue":"10"
     },
     {
         "DisplayName": "LAN Mode",
@@ -338,7 +353,7 @@
     {
         "DisplayName": "Allow Community Admin Access",
         "Category": "Server Config",
-        "Description": "Enable Community Admin Access",
+        "Description": "Enable QA Admin Access (Required for Licensed Servers)",
         "Keywords": "Admin",
         "FieldName": "AllowCommunityAdminAccess",
         "InputType": "checkbox",
@@ -353,7 +368,7 @@
     {
         "DisplayName": "Offworld Developers only Admin",
         "Category": "Server Config",
-        "Description": "Only Offworld Industries developers are admins",
+        "Description": "Allow Offworld Industries QA Dev Profiling (Required for Licensed Servers)",
         "Keywords": "Admin",
         "FieldName": "AllowDevProfiling",
         "InputType": "checkbox",
@@ -368,7 +383,7 @@
     {
         "DisplayName": "Allow QA",
         "Category": "Server Config",
-        "Description": "Allow QA",
+        "Description": "Allow Offworld Industries QA (Required for Licensed Servers)",
         "Keywords": "QA",
         "FieldName": "AllowQA",
         "InputType": "checkbox",
