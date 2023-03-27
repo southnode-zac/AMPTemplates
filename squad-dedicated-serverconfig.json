@@ -21,7 +21,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "ServerName",
         "IncludeInCommandLine": false,
-        "DefaultValue": "Squad - Powered by Southnode"
+        "DefaultValue": "A Squad Server Powered by AMP"
     },
     {
         "DisplayName": "Max Players",
