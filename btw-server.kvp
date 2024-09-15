@@ -31,6 +31,7 @@ Console.UserJoinRegex=
 Console.UserLeaveRegex=
 Meta.Author=Southnode-Zac
 Meta.ConfigVersion=1.0
+Meta.AppConfigId=470b02fc-a878-4c11-ae23-8c357a125eff
 Meta.ConfigManifest=btw-serverconfig.json
 Meta.MetaConfigManifest=btw-servermetaconfig.json
 Meta.ConfigRoot=btw-server.kvp
