@@ -5,5 +5,22 @@
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "403240",
         "UpdateSourceArgs": "393380"
+    },
+    {
+        "UpdateStageName":"Modscript Download",
+        "UpdateSourcePlatform":"Linux",
+        "UpdateSource":"FetchURL",
+        "UpdateSourceData":"https://github.com/southnode/AMPTemplates/raw/experimental/squad-mod-conversion.sh",
+        "UpdateSourceArgs":"convertmods.sh",
+        "UpdateSourceTarget":"{{$FullInstanceDir}}",
+        "OverwriteExistingFiles":true
+    },
+    {
+        "UpdateStageName":"Convert Mods",
+        "UpdateSourcePlatform":"Linux",
+        "UpdateSource":"Executable",
+        "UpdateSourceData":"/bin/bash",
+        "UpdateSourceArgs":"./convertmods.sh",
+        "SkipOnFailure":true
     }
 ]
